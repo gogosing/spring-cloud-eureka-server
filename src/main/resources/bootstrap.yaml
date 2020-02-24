@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:8761}
+
+spring:
+  application:
+    name: spring-cloud-eureka-server
+
+eureka:
+  server:
+    enable-self-preservation: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
